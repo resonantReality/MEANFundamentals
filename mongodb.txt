@@ -1,0 +1,4 @@
+mongodb+srv://greg:<PASSWORD>@cluster0-ixzca.mongodb.net/test?retryWrites=true
+
+greg
+DBkeeper777
