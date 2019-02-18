@@ -1,13 +1,13 @@
 //	Load mongoose module
-const mongoose = require("mongoose");
+const mongoose = require(`mongoose`);
 
 
 
 //	Declare schema and assign Schema class 
-const Schema = mongoose.Schema;
+const schema = mongoose.Schema;
 
 //	Create Schema Instance and add schema properties(assuming we're creating for a simple blog)
-const BlogSchema = new Schema({
+const blogSchema = new schema({
   title: {
     type: String,
     required: true
@@ -21,4 +21,4 @@ const BlogSchema = new Schema({
 
 
 //	Make model exportable model
-module.exports = mongoose.model("ArticleModel", BlogSchema);
+module.exports = mongoose.model(`ArticleModel`, blogSchema);
