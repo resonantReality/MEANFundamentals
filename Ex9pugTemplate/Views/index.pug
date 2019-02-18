@@ -1,0 +1,11 @@
+doctype html
+html
+    head
+        title Pug Todo List Page
+    body
+        h1 This page is produced by the Pug engine to display a todo list
+        p Todo List
+
+        ul
+            each list in todoList
+                li=list.task
